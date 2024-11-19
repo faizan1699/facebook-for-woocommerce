@@ -32,7 +32,7 @@ if ( ! $wc_dir ) {
 validate_file_exits( "{$wc_dir}/woocommerce.php" );
 
 // Require the composer autoloader.
-require_once dirname( __DIR__ ) . '/vendor/autoload.php';
+require_once dirname( __DIR__ ) . '/vendors/autoload.php';
 
 // Give access to tests_add_filter() function.
 require_once "{$wp_tests_dir}/includes/functions.php";
